@@ -35,3 +35,28 @@ This project was developed by a team of **six students** following **Software De
 ```sh
 git clone https://github.com/your-repo/fdm-employee-portal.git
 cd fdm-employee-portal
+```
+
+### **2. Frontend Setup**  
+
+Navigate to the `src` folder, install dependencies, and start the frontend:  
+
+```sh
+cd src
+npm install
+npm start
+```
+This will start the React application, which will be available at http://localhost:3000/.
+
+
+### **3. Backend Setup**  
+Navigate to the `server` folder, install dependencies, and start the backend server:
+
+```sh
+cd server
+npm install
+node server.js
+```
+The backend will run at http://localhost:3001/.
+
+
